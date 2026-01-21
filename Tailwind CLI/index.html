@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SkillForge</title>
+
+    <link rel="icon" type="image/jpg" href="./images/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-black/10 pt-16 m-0">
+    <nav class="fixed top-0 left-0 w-screen z-50 bg-white/50 shadow-md">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
+
+            <div class="flex items-center">
+                <img src="./images/logo.jpg" class="w-10 h-10 rounded-full" alt="logo">
+                <span class="font-bold text-2xl pl-3">SkillForge</span>
+            </div>
+
+            <ul class="flex space-x-6 md:space-x-8 font-bold">
+                <li class="relative group">
+                    <a href="#home" class="transition duration-300">Home</a>
+                    <span class="absolute left-1/2 -translate-x-1/2 -bottom-1 h-1 
+                w-0 bg-black rounded-full transition-all duration-300 group-hover:w-1/2"></span>
+                </li>
+                <li class="relative group">
+                    <a href="#courses" class="transition duration-300">Courses</a>
+                    <span class="absolute left-1/2 -translate-x-1/2 -bottom-1 h-1 
+                w-0 bg-black rounded-full transition-all duration-300 group-hover:w-1/2"></span>
+                </li>
+                <li class="relative group">
+                    <a href="#projects" class="transition duration-300">Projects</a>
+                    <span class="absolute left-1/2 -translate-x-1/2 -bottom-1 h-1 
+                w-0 bg-black rounded-full transition-all duration-300 group-hover:w-1/2"></span>
+                </li>
+                <li class="relative group">
+                    <a href="#about" class="transition duration-300">About</a>
+                    <span class="absolute left-1/2 -translate-x-1/2 -bottom-1 h-1 
+                w-0 bg-black rounded-full transition-all duration-300 group-hover:w-1/2"></span>
+                </li>
+                <li class="relative group">
+                    <a href="#contact" class="transition duration-300">Contact</a>
+                    <span class="absolute left-1/2 -translate-x-1/2 -bottom-1 h-1
+                 w-0 bg-black rounded-full transition-all duration-300 group-hover:w-1/2"></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="w-screen h-[90vh] bg-cover bg-center flex flex-col items-center justify-between py-30"
+        style="background-image: url(./images/background.jpeg);">
+
+        <div class="flex flex-col max-w-175 bg-black/40  text-center px-4 py-10 rounded-md">
+            <h1 class="font-extrabold text-cyan-300  mb-5 text-4xl">Build Your Future with SkillForge</h1>
+            <p class="text-white/70 font-bold">Learn coding, build real projects, and become job-ready faster.</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center mt-5">
+            <div class="mt-4 text-center px-6 py-3">
+                <p class="font-semibold text-white/70 text-center">
+                    SkillForge helps students master Web Development, Java, and Backend technologies through hands-on
+                    practice and real-world applications.
+                </p>
+            </div>
+
+            <div class="max-w-[500px] flex justify-center space-x-5 mt-3">
+                <button
+                    class="bg-blue-500 px-4 py-3 rounded-lg font-semibold text-white cursor-pointer hover:-translate-y-1 duration-300 hover:bg-blue-600">Get
+                    Started</button>
+                <button
+                    class="bg-blue-500 px-4 py-3 rounded-lg font-semibold text-white cursor-pointer hover:-translate-y-1 duration-300 hover:bg-blue-600">View
+                    Courses</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="courses" class="w-screen h-auto  py-10">
+        <h1 class="text-center font-bold text-4xl mb-4">Course Section</h1>
+        <p class="text-lg text-center text-gray-600 font-semibold">
+            "Choose from our most in-demand courses designed to make you job-ready."
+        </p>
+        <div class="w-full h-auto px-20 py-20 grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+            <div class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/1.web-development.jfif" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl">
+                    <div class="flex flex-col justify-center m-2">
+                        <h2 class="text-xl pb-2 font-semibold">Full Stack Web Development</h2>
+                        <p class="text-sm text-gray-600"> Learn HTML, CSS, Tailwind, JavaScript and React by building real projects.</p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800 m-2 p-1 font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Beginner/ 8 Weeks</span>
+                    </div>
+                    <div class="p-3">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/2.java-backend.png" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl">
+                    <div class="flex flex-col justify-center m-2">
+                        <h2 class="text-xl pb-2 font-semibold">Java Backend Development</h2>
+                        <p class="text-sm text-gray-600">Master Java, Spring Boot, REST APIs and database integration.
+                        </p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800 m-2 p-1 font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Intermediate/ 6 Weeks</span>
+                    </div>
+                    <div class="p-3">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/3.front-end-framework.jfif" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl">
+                    <div class="flex flex-col justify-center m-2">
+                        <h2 class="text-xl pb-2 font-semibold">Frontend Framework</h2>
+                        <p class="text-sm text-gray-600"> Build modern user interfaces using React and Tailwind CSS.</p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800 m-2 p-1 font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Intermediate/ 5 Weeks</span>
+                    </div>
+                    <div class="p-3">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/4.programming-basic.jfif" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl">
+                    <div class="flex flex-col justify-center m-2">
+                        <h2 class="text-xl pb-2 font-semibold">Programming Fundamentals</h2>
+                        <p class="text-sm text-gray-600">Learn core programming concepts using Java and C.</p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800 m-2 p-1 font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Beginner/ 4 Weeks</span>
+                    </div>
+                    <div class="p-3">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/5.developer-tools & github.png" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl">
+                    <div class="flex flex-col justify-center m-2">
+                        <h2 class="text-xl pb-2 font-semibold">Developer Tools & Git</h2>
+                        <p class="text-sm text-gray-600">Learn Git, GitHub, VS Code and real-world workflows.</p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800 m-2 p-1 font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Beginner/ 2 Weeks</span>
+                    </div>
+                    <div class="p-3">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/6.ai-related images.jfif" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl p-2">
+                    <div class="flex flex-col justify-center ">
+                        <h2 class="text-xl font-semibold">Artificial Intelligence</h2>
+                        <p class="text-sm text-gray-600 pb-3"> Learn the fundamentals of AI, Machine Learning, and
+                            real-world application using Python.</p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800  font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Beginner → Advanced/ 8 Weeks</span>
+                    </div>
+                    <div class="ml-1.5 pt-2">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/7.cyber-sercurity.jfif" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl p-2">
+                    <div class="flex flex-col justify-center ">
+                        <h2 class="text-xl font-semibold">Cyber Security</h2>
+                        <p class="text-sm text-gray-600 pb-3">Learn ethical hacking, network security, and protecting
+                            systems from cyber attacks.</p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800  font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Intermediate/ 6 Weeks</span>
+                    </div>
+                    <div class="ml-1.5 pt-2">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/8.data-science.jfif" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl p-2">
+                    <div class="flex flex-col justify-center ">
+                        <h2 class="text-xl font-semibold">Data Science</h2>
+                        <p class="text-sm text-gray-600 pb-3">Master Python, statistics, data visualization, and
+                            real-world analytics projects.</p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800  font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Beginner → Advanced/ 8 Weeks</span>
+                    </div>
+                    <div class="ml-1.5 pt-2">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative w-70 h-80 bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all hover:-translate-y-1">
+                <img src="./images/9.cloud-computing.jfif" class="rounded-t-2xl w-70 h-40">
+                <div class="absolute bottom-8 bg-white w-70 h-40 rounded-b-2xl p-2">
+                    <div class="flex flex-col justify-center ">
+                        <h2 class="text-xl font-semibold">Cloud Computing</h2>
+                        <p class="text-sm text-gray-600 pb-3">Learn AWS, deployment, DevOps basics, and scalable cloud
+                            infrastructure.</p>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-800  font-semibold">
+                        <span class="font-bold">Duration:</span>
+                        <span>Intermediate/ 5 Weeks</span>
+                    </div>
+                    <div class="ml-1.5 pt-2">
+                        <button
+                            class="bg-blue-600 px-5 py-2 rounded-lg text-white font-semibold cursor-pointer transition-all hover:-translate-y-1 hover:bg-blue-700">Enroll</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="w-screen h-auto">
+        <h2 class="text-center font-bold text-4xl mb-4">Project Section</h2>
+        <p class="text-center font-semibold text-lg text-gray-600 mb-8">
+            “Explore real-world projects built by our learners using modern technologies.”
+        </p>
+
+        <div class="max-w-8xl h-auto px-20 py-10 grid grid-cols-3 sm:grid-cols-2 sm:px-10 lg:grid-cols-3 gap-10">
+
+            <div class="w-[330px] h-[75vh] rounded-2xl shadow-2xl transition-all duration-300 hover:shadow-3xl hover:-translate-y-1">
+                <img src="./images/project-1.jpg" class="rounded-t-2xl">
+                <div class="flex flex-col justify-center p-3">
+                    <h3 class="font-semibold text-lg">E-commerce Website:-</h3>
+                    <p class="text-md text-gray-600">A complete e-commerce platform with product browsing, cart
+                        management, and secure checkout functionality.</p>
+                    <div class="grid grid-cols-3 items-center text-xs gap-2 mt-2">
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">HTML</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">Tailwind</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">JavaScript</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">React</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">Java</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">SpringBoot</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">MySQL</span>
+                    </div>
+
+                    <div class="flex justify-between mt-1 p-2">
+                        <a href="#" class="font-bold text-xs">Live Demo <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" class="font-bold text-xs">Source code <i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="w-[330px] h-[75vh] rounded-2xl shadow-2xl transition-all duration-300 hover:shadow-3xl hover:-translate-y-1">
+                <img src="./images/project-2.jpg" class="rounded-t-2xl ">
+                <div class="flex flex-col justify-center p-3">
+                    <h3 class="font-semibold text-lg">AI Chatbot:-</h3>
+                    <p class="text-md text-gray-600">An AI chatbot using Python and NLP to answer user queries and
+                        simulate conversation.</p>
+                    <div class="grid grid-cols-3 items-center text-xs gap-2 mt-2 mb-4">
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">Python</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">NLP</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">Flask</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">HTML</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">Tailwind</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">JavaScript</span>
+                    </div>
+
+                    <div class="flex justify-between mt-2 p-2">
+                        <a href="#" class="font-bold text-xs">Live Demo <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" class="font-bold text-xs">Source code <i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="w-[330px] h-[75vh] rounded-2xl shadow-2xl transition-all duration-300 hover:shadow-3xl hover:-translate-y-1">
+                <img src="./images/project3.png" class="rounded-t-2xl">
+                <div class="flex flex-col justify-center p-3">
+                    <h3 class="font-semibold text-lg">Portfolio Builder:-</h3>
+                    <p class="text-md text-gray-600">A frontend-only tool to easily create and customize a personal
+                        portfolio website.</p>
+                    <div class="grid grid-cols-3 items-center text-xs gap-2 mt-2 mb-4">
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">HTML</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">Tailwind</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">JavaScript</span>
+                        <span class="bg-cyan-600 text-white rounded-xl p-2 text-center font-semibold">React</span>
+                    </div>
+
+                    <div class="flex justify-between mt-8 p-2">
+                        <a href="#" class="font-bold text-xs">Live Demo <i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" class="font-bold text-xs">Source code <i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class= "w-full h-auto px-10 py-5">
+        <div class="bg-white/70 w-full h-auto flex flex-col justify-between rounded-2xl shadow-lg px-5 py-5">
+            <div class="flex">
+                <div class="flex flex-col h-80 items-start px-5 py-5">
+                    <h2 class="font-extrabold text-4xl">About Us</h2>
+                    
+                    <p class="text-blue-500 w-1/2 mt-5">
+                        SkillForge is a modern e-learning platform focused on practical, skill-based learning.
+                        We help students become job-ready through real-world projects and industry-driven courses.
+                    </p>
+                    <button class="px-5 py-2 mt-5 bg-blue-500 rounded-full font-bold text-white/80">
+                        Skill More
+                    </button>
+                </div>
+                <div class="w-90 h-50">
+                    <img src="./images/about3.png" class="rounded-lg">
+                </div>
+            </div>
+            <div class="grid grid-cols-4 space-y-10 sm:grid-cols-2 lg:grid-cols-4 px-15 py-10 m-4">
+                <div class="rounded-2xl bg-white flex flex-col justify-center items-center shadow-xl w-50 h-50">
+                    <span class="text-4xl">🎯</span>
+                    <h3 class="font-bold mt-2">Industry Courses</h3>
+                    <p class="text-sm text-gray-500 text-center w-40">Learn what companies actually use.</p>
+                </div>
+                <div class="rounded-2xl bg-white flex flex-col justify-center items-center px-5 py-5 shadow-xl w-50 h-50">
+                    <span class="text-4xl">🛠</span>
+                    <h3 class="font-bold mt-2">Real Projects</h3>
+                    <p class="text-sm text-gray-500 text-center">Build real applications.</p>
+                </div>
+                <div class="rounded-2xl bg-white flex flex-col justify-center items-center px-5 py-5 shadow-xl w-50 h-50">
+                    <span class="text-4xl">👨‍🏫</span>
+                    <h3 class="font-bold mt-2">Beginner Friendly</h3>
+                    <p class="text-sm text-gray-500 text-center">Easy to understand learning.</p>
+                </div>
+                <div class="rounded-2xl bg-white flex flex-col justify-center items-center px-5 py-5 shadow-xl w-50 h-50">
+                    <span class="text-4xl text-center">🚀</span>
+                    <h3 class="font-bold mt-2">Career Focused</h3>
+                    <p class="text-sm text-gray-500 text-center">Get job-ready skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section  id="contact" class="w-full h-auto mt-10 px-10 py-5 mb-10">
+        <div class="flex flex-col justify-center items-center">
+            <h2 class="font-bold text-4xl text-center mb-4">Contact Us</h2>
+            <p class=" font-semibold  text-lg text-center text-gray-600 mb-5">“Have questions? We’d love to hear from you.”</p>
+
+            <div class="bg-indigo-500 px-20 py-10 mt-10 rounded-xl shadow-xl">
+                <form  class="flex flex-col" action="">
+                    <label for="fullname" class="font-semibold text-amber-50">Fullname</label>
+                    <input type="text" id="name" class="bg-white mt-2 mb-4 px-2 py-2 w-70 rounded-lg focus:outline-none">
+                    <label for="email" class="font-semibold text-amber-50">Email</label>
+                    <input type="email" id="email" class="bg-white mt-2 mb-4 px-2 py-2 w-70 rounded-lg focus:outline-none">
+                    <label for="message" class="font-semibold text-amber-50">Message </label>
+                    <textarea  id="message" class="bg-white mt-2 mb-4 px-2 py-2 min-h-[20vh] w-70 rounded-lg focus:outline none"></textarea>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="mb-10 flex flex-col justify-center items-center">
+        <div class="flex space-x-3 justify-center items-center">
+            <img src="./images/logo.jpg" class="w-10 rounded-full">
+            <h2 class="font-bold text-4xl">SkillForge</h2>
+        </div>
+        <p class="font-semibold px-5 mt-3 text-md text-gray-600">SkillForge – Learn. Build. Grow.</p>
+    </div>
+
+    <footer class="bg-gray-800 text-white w-full  px-6 py-10 md:px-20">
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+        <div>
+        <h2 class="text-lg font-semibold mb-4">Quick Links</h2>
+        <ul class="space-y-2">
+            <li><a href="#home" class="text-cyan-300 hover:text-white transition">Home</a></li>
+            <li><a href="#courses" class="text-cyan-300 hover:text-white transition">Courses</a></li>
+            <li><a href="#projects" class="text-cyan-300 hover:text-white transition">Projects</a></li>
+            <li><a href="#about" class="text-cyan-300 hover:text-white transition">About</a></li>
+            <li><a href="#contact" class="text-cyan-300 hover:text-white transition">Contact</a></li>
+        </ul>
+        </div>
+
+        <div>
+        <h2 class="text-lg font-semibold mb-4">Courses</h2>
+        <ul class="space-y-2">
+            <li><a href="#" class="text-cyan-300 hover:text-white transition">Web Development</a></li>
+            <li><a href="#" class="text-cyan-300 hover:text-white transition">Java Backend</a></li>
+            <li><a href="#" class="text-cyan-300 hover:text-white transition">AI & Machine Learning</a></li>
+            <li><a href="#" class="text-cyan-300 hover:text-white transition">Cyber Security</a></li>
+            <li><a href="#" class="text-cyan-300 hover:text-white transition">Tools & Git</a></li>
+        </ul>
+        </div>
+
+        <div class="space-y-6">
+        <div>
+            <h2 class="text-lg font-semibold mb-4">Contact Us</h2>
+            <ul class="space-y-2">
+            <li>
+                <a href="mailto:info@skillforge.com" class="text-cyan-300 hover:text-white transition">
+                <i class="fa-solid fa-envelope mr-2"></i> info@skillforge.com
+                </a>
+            </li>
+            <li>
+                <a href="tel:+1234567890" class="text-cyan-300 hover:text-white transition">
+                <i class="fa-solid fa-phone mr-2"></i> +123-456-7890
+                </a>
+            </li>
+            <li class="text-cyan-300">
+                <i class="fa-solid fa-location-dot mr-2"></i> 123 Coding St, Tech City
+            </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2 class="text-lg font-semibold mb-4 mt-2">Follow Us</h2>
+            <div class="flex space-x-6 text-xl">
+            <a href="https://github.com" target="_blank"
+                class="text-cyan-300 hover:text-white transition">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank"
+                class="text-cyan-300 hover:text-white transition">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank"
+                class="text-cyan-300 hover:text-white transition">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank"
+                class="text-cyan-300 hover:text-white transition">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="border-t border-white/20 mt-10 pt-4 text-center text-sm text-gray-400">
+        © 2026 SkillForge. All Rights Reserved.
+    </div>
+
+    </footer>
+
+</body>
+
+</html>
